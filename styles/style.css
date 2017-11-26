@@ -5,16 +5,18 @@ body{
 }
 
 @font-face{
-	/*TITLE FONTS SLIGHTLY DIFF ON LIVE BROWSERS VS PREVIEW STRAIGHT FROM SUBLIME, INVESTIGATE*/
 	font-family: 'Champagne & Limousines';
 	src: url("fonts/Champagne & Limousines.eot") format('embedded-opentype'), /*For IE*/
-	url("fonts/Champagne & Limousines.ttf") format('opentype'); /*For other browsers*/
+	url("fonts/Champagne & Limousines.ttf") format('truetype'), /*For other browsers*/
+	url("fonts/Champagne & Limousines.svg") format('svg');
 }
 
 @font-face{
 	font-family: 'Champagne & Limousines';
 	font-weight: bold;
-	src: url("fonts/Champagne & Limousines Bold") format('opentype'); /*For other browsers*/
+	src: url("fonts/Champagne & Limousines Bold.eot") format('embedded-opentype'),
+	url("fonts/Champagne & Limousines Bold.ttf") format('truetype'),
+	url("fonts/Champagne & Limousines Bold.svg") format('svg');
 }
 
 .container{
