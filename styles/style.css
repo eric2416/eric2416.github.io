@@ -4,16 +4,11 @@ body{
 	line-height: 1.5;
 	background-color: #3d3d3d;
 }
-/*For IE*/
-@font-face{
-	font-family: 'Champagne & Limousines';
-	src: url("fonts/eot/Champagne & Limousines.eot");
-}
 
-/*For most other browsers*/
 @font-face{
 	font-family: 'Champagne & Limousines';
-	src: url("fonts/ttf/Champagne & Limousines.ttf");
+	src: url("fonts/eot/Champagne & Limousines.eot"); /*For IE*/
+	src: url("fonts/ttf/Champagne & Limousines.ttf"); /*For most other browsers*/
 }
 
 .container{
