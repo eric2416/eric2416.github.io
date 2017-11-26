@@ -8,7 +8,7 @@ body{
 	font-family: 'Champagne & Limousines';
 	src: url("fonts/Champagne & Limousines.eot") format('embedded-opentype'), /*For IE*/
 	url("fonts/Champagne & Limousines.ttf") format('truetype'), /*For other browsers*/
-	url("fonts/Champagne & Limousines.svg") format('svg');
+	url("fonts/Champagne & Limousines.svg.#svgChampagne & Limousines") format('svg');
 }
 
 @font-face{
