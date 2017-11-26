@@ -10,8 +10,8 @@ body{
 	src: url("fonts/Champagne & Limousines.eot") format('embedded-opentype'), 
 	url("fonts/Champagne & Limousines.ttf") format('truetype'),
 	url("fonts/Champagne & Limousines.svg.#svgChampagne & Limousines") format('svg'),
-	url('fonts/champagne__limousines-webfont.woff2') format('woff2'),
-   	url('fonts/champagne__limousines-webfont.woff') format('woff');
+	url("fonts/Champagne & Limousines.woff2") format('woff2'),
+   	url("fonts/Champagne & Limousines.woff") format('woff');
 }
 
 @font-face{
