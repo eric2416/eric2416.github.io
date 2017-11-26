@@ -11,6 +11,12 @@ body{
 	url("fonts/Champagne & Limousines.ttf") format('opentype'); /*For other browsers*/
 }
 
+@font-face{
+	font-family: 'Champagne & Limousines';
+	font-weight: bold;
+	src: url("fonts/Champagne & Limousines Bold") format('opentype'); /*For other browsers*/
+}
+
 .container{
 	width: 70%; /*% so that the site is responsive*/
 	margin: auto;
