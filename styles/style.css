@@ -131,7 +131,7 @@ textarea:focus{
 }
 
 .contactInfo label{
-	width: 40%;
+	width: 50%;
 	float: left;
 	box-sizing: border-box;
 }
@@ -144,7 +144,6 @@ textarea:focus{
 	padding-left: 5px;
 }
 
-
 textarea{
 	height: 240px;
 }
@@ -154,6 +153,7 @@ textarea{
 	background: teal;
 	color: white;
 	font-size: 30px;
+	cursor: pointer; 
 }
 
 label{
