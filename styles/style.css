@@ -116,7 +116,7 @@ form{
 
 input, textarea{
 	border: 2px;
-	border-color: black;
+	border-color: #4e747c;
 	border-style: solid;
 	width: 100%;
 	box-sizing: border-box;
@@ -157,16 +157,16 @@ textarea{
 
 [type="submit"]{
 	text-transform: uppercase;
-	background: #92d4e5;
+	background: #75a6b2;
 	color: white;
 	font-size: 30px;
 	cursor: pointer; 
 	font-family: 'Champagne & Limousines';
 }
 
-.submit label:hover{
-	color: black;
-	background-color: black;
+[type="submit"]:hover{
+	background: #92d4e5;
+	
 }
 
 label{
