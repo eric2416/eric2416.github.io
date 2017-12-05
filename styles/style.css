@@ -110,13 +110,13 @@ header a:hover{
 }
 /*************************************************************************************************************/
 form{
-	max-width: 450px;
-	margin: 0 auto 50px;
+	max-width: 100%;
+	margin: 0 auto 100px;
 }
 
 input, textarea{
 	border: 2px;
-	border-color: black;
+	border-color: #4e747c;
 	border-style: solid;
 	width: 100%;
 	box-sizing: border-box;
@@ -126,12 +126,19 @@ input, textarea{
 input:focus,
 textarea:focus{
 	outline: none;
-	border-color: cyan;
+	border-color: #92d4e5;
+	box-sizing: border-box;
+}
+
+input:hover,
+textarea:hover{
+	outline: none;
+	border-color: #92d4e5;
 	box-sizing: border-box;
 }
 
 .contactInfo label{
-	width: 40%;
+	width: 50%;
 	float: left;
 	box-sizing: border-box;
 }
@@ -144,21 +151,28 @@ textarea:focus{
 	padding-left: 5px;
 }
 
-
 textarea{
 	height: 240px;
 }
 
 [type="submit"]{
 	text-transform: uppercase;
-	background: teal;
+	background: #75a6b2;
 	color: white;
 	font-size: 30px;
+	cursor: pointer; 
+	font-family: 'Champagne & Limousines';
+	box-sizing: border-box;
+	border: none;
+}
+
+[type="submit"]:hover{
+	background: #92d4e5;
 }
 
 label{
 	display: block;
-	margin-bottom: 24px;
+	margin-bottom: 20px;
 }
 
 span{
